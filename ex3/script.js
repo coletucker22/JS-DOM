@@ -3,9 +3,9 @@
 var button = document.getElementById("myButton");
 
 button.addEventListener('click', function(){
-    const curColour = document.getElementById('box').style.backgroundColor;
+    const curColor = document.getElementById('box').style.backgroundColor;
 
-    if (curColour === 'red') {
+    if (curColor === 'red') {
         document.getElementById('box').style.backgroundColor = "blue";
     }
     else {
